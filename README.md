@@ -1,7 +1,7 @@
 ## :mag: INICIAÇÃO CIENTÍFICA :
 ## Aprendizado de Máquina Fuzzy: potenciais contribuições da teoria fuzzy na concepção de técnias de aprendizado de máquina para a tarefa de classificação
 
-#Resumo:
+# Resumo:
 As árvores de decisão (AD) são empregadas na solução de problemas que envolvem a tarefa de classificação, uma tarefa supervisionada de aprendizado de máquina. Uma de suas características principais é a utilização do método de dividir para conquistar, ou seja, transforma problemas complexos em problemas mais simples, recebendo como entrada um conjunto composto por atributos de entrada e saída. Esta saída é a classificação das instâncias que compõem o conjunto. 
 
 Vários algoritmos baseados na AD são apresentados na literatura, sendo os mais conhecidos: ID3, CART e o C4.5. Entretanto os modelos clássicos de árvore de decisão não abrangem o tratamento de problemas que envolvem imprecisão. Para tanto foram desenvolvidas as chamadas Árvore de Decisão Fuzzy (ADF), que atribui a capacidade de suportar variáveis fuzzy (ou difusas, em portugûes), ou seja, as variáveis que são tratadas com incerteza. Diante deste contexto, este trabalho de iniciação científica possui como foco principal analisar e comparar o modelo clássico de AD C4.5 e o ADF. 
