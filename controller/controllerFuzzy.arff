@@ -1,0 +1,22 @@
+@RELATION controller
+
+@ATTRIBUTE velocidade	{baixissima,muitobaixa,baixa,mediabaixa,mediaalta,alta,muitoalta,altissima}
+@ATTRIBUTE angulo	{baixissima,muitobaixa,baixa,mediabaixa,mediaalta,alta,muitoalta,altissima}
+@ATTRIBUTE potencia	{3,5,7}
+
+
+@DATA
+baixissima,baixissima,3
+muitobaixa,altissima,3
+baixa,baixa,5
+baixissima,alta,5
+muitobaixa,mediabaixa,7
+mediaalta,baixissima,5
+alta,altissima,5
+mediaalta,baixa,3
+alta,alta,3
+mediaalta,mediabaixa,7
+alta,baixissima,5
+muitoalta,altissima,5
+altissima,baixa,3
+alta,alta,3

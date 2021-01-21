@@ -1,0 +1,11 @@
+3
+8
+dc	baixissima	5	
+dc	muitobaixa	3	
+dc	baixa	3	
+dc	mediabaixa	7	
+dc	mediaalta	3	
+dc	alta	3	
+dc	muitoalta	3	
+dc	altissima	5	
+

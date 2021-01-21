@@ -1,0 +1,8 @@
+iris - Total: 5 rules.
+
+IF LarguraPetala IS baixa THEN CLASS IS 1
+IF LarguraPetala IS mediabaixa THEN CLASS IS 3
+IF LarguraPetala IS media THEN CLASS IS 3
+IF LarguraPetala IS mediaalta THEN CLASS IS 2
+IF LarguraPetala IS alta THEN CLASS IS 2
+

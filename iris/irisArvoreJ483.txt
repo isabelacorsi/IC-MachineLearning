@@ -1,0 +1,16 @@
+FuzzyDT
+------------------
+
+LarguraPetala = baixissima: 1 (41.0)
+LarguraPetala = baixa: 1 (9.0)
+LarguraPetala = mediabaixa: 3 (28.0)
+LarguraPetala = mediaalta
+|   LarduraSepala = baixa: 2 (5.0/2.0)
+|   LarduraSepala = media: 3 (21.0/2.0)
+|   LarduraSepala = alta: 3 (0.0)
+LarguraPetala = alta: 2 (32.0/1.0)
+LarguraPetala = altissima: 2 (14.0)
+
+Number of Leaves  : 	8
+
+Size of the tree : 	10

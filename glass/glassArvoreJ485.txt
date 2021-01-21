@@ -1,0 +1,78 @@
+FuzzyDT
+------------------
+
+Bario = baixissima
+|   Magnesio = baixissima
+|   |   Aluminio = baixa: 2 (8.0/2.0)
+|   |   Aluminio = media: 5 (9.0/4.0)
+|   |   Aluminio = alta: 5 (2.0)
+|   Magnesio = muitobaixa: 5 (2.0/1.0)
+|   Magnesio = baixa: 2 (2.0)
+|   Magnesio = mediabaixa
+|   |   Calcio = baixa: 5 (0.0)
+|   |   Calcio = mediabaixa: 6 (3.0)
+|   |   Calcio = media: 5 (5.0/1.0)
+|   |   Calcio = mediaalta: 5 (0.0)
+|   |   Calcio = alta: 5 (0.0)
+|   Magnesio = mediaalta
+|   |   Calcio = baixa: 2 (0.0)
+|   |   Calcio = mediabaixa
+|   |   |   Sodio = baixissima: 1 (0.0)
+|   |   |   Sodio = muitobaixa: 1 (0.0)
+|   |   |   Sodio = baixa: 2 (5.0/1.0)
+|   |   |   Sodio = mediabaixa: 1 (3.0)
+|   |   |   Sodio = mediaalta: 1 (0.0)
+|   |   |   Sodio = alta: 1 (0.0)
+|   |   |   Sodio = muitoalta: 1 (0.0)
+|   |   |   Sodio = altissima: 1 (0.0)
+|   |   Calcio = media: 6 (3.0/1.0)
+|   |   Calcio = mediaalta: 2 (0.0)
+|   |   Calcio = alta: 2 (0.0)
+|   Magnesio = alta
+|   |   Potassio = baixissima: 2 (9.0/1.0)
+|   |   Potassio = baixa: 1 (46.0/25.0)
+|   |   Potassio = mediabaixa: 2 (0.0)
+|   |   Potassio = media: 2 (0.0)
+|   |   Potassio = mediaalta: 2 (0.0)
+|   |   Potassio = alta: 2 (0.0)
+|   |   Potassio = altissima: 2 (0.0)
+|   Magnesio = muitoalta
+|   |   Calcio = baixa: 1 (0.0)
+|   |   Calcio = mediabaixa
+|   |   |   Potassio = baixissima
+|   |   |   |   Aluminio = baixa
+|   |   |   |   |   Sodio = baixissima: 3 (0.0)
+|   |   |   |   |   Sodio = muitobaixa: 3 (0.0)
+|   |   |   |   |   Sodio = baixa: 3 (0.0)
+|   |   |   |   |   Sodio = mediabaixa: 3 (2.0)
+|   |   |   |   |   Sodio = mediaalta: 1 (3.0/1.0)
+|   |   |   |   |   Sodio = alta: 3 (0.0)
+|   |   |   |   |   Sodio = muitoalta: 3 (0.0)
+|   |   |   |   |   Sodio = altissima: 3 (0.0)
+|   |   |   |   Aluminio = media: 1 (10.0/4.0)
+|   |   |   |   Aluminio = alta: 1 (0.0)
+|   |   |   Potassio = baixa: 2 (56.0/24.0)
+|   |   |   Potassio = mediabaixa: 2 (0.0)
+|   |   |   Potassio = media: 2 (0.0)
+|   |   |   Potassio = mediaalta: 2 (0.0)
+|   |   |   Potassio = alta: 2 (0.0)
+|   |   |   Potassio = altissima: 2 (0.0)
+|   |   Calcio = media: 1 (15.0/2.0)
+|   |   Calcio = mediaalta: 1 (0.0)
+|   |   Calcio = alta: 1 (0.0)
+|   Magnesio = altissima: 1 (1.0)
+Bario = baixa
+|   IndiceRefracao = baixa: 7 (0.0)
+|   IndiceRefracao = mediabaixa: 7 (11.0)
+|   IndiceRefracao = media: 1 (2.0/1.0)
+|   IndiceRefracao = mediaalta: 7 (0.0)
+|   IndiceRefracao = alta: 7 (0.0)
+Bario = mediabaixa: 7 (3.0)
+Bario = media: 7 (11.0)
+Bario = mediaalta: 5 (1.0)
+Bario = alta: 7 (1.0)
+Bario = altissima: 2 (1.0)
+
+Number of Leaves  : 	60
+
+Size of the tree : 	72

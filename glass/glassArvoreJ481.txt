@@ -1,0 +1,45 @@
+FuzzyDT
+------------------
+
+Bario = baixissima
+|   Magnesio = baixissima
+|   |   Aluminio = baixissima: 6 (1.0)
+|   |   Aluminio = baixa: 2 (7.0/1.0)
+|   |   Aluminio = mediabaixa: 5 (5.0/2.0)
+|   |   Aluminio = media: 5 (5.0/2.0)
+|   |   Aluminio = mediaalta: 2 (0.0)
+|   |   Aluminio = alta: 5 (2.0)
+|   |   Aluminio = altissima: 2 (0.0)
+|   Magnesio = baixa: 2 (2.0/1.0)
+|   Magnesio = mediabaixa: 5 (5.0/2.0)
+|   Magnesio = media: 6 (8.0/4.0)
+|   Magnesio = mediaalta: 2 (21.0/9.0)
+|   Magnesio = alta
+|   |   Calcio = baixa: 2 (33.0/7.0)
+|   |   Calcio = media
+|   |   |   IndiceRefracao = baixissima: 1 (1.0)
+|   |   |   IndiceRefracao = baixa: 1 (50.0/19.0)
+|   |   |   IndiceRefracao = mediabaixa
+|   |   |   |   Aluminio = baixissima: 1 (3.0)
+|   |   |   |   Aluminio = baixa
+|   |   |   |   |   Silicio = baixa: 1 (13.0/4.0)
+|   |   |   |   |   Silicio = alta: 2 (3.0/1.0)
+|   |   |   |   Aluminio = mediabaixa: 2 (22.0/8.0)
+|   |   |   |   Aluminio = media: 1 (0.0)
+|   |   |   |   Aluminio = mediaalta: 1 (0.0)
+|   |   |   |   Aluminio = alta: 1 (0.0)
+|   |   |   |   Aluminio = altissima: 1 (0.0)
+|   |   |   IndiceRefracao = mediaalta: 1 (3.0)
+|   |   |   IndiceRefracao = alta: 1 (0.0)
+|   |   |   IndiceRefracao = altissima: 1 (0.0)
+|   |   Calcio = alta: 1 (0.0)
+|   Magnesio = altissima: 1 (1.0)
+Bario = baixa: 7 (13.0/1.0)
+Bario = mediabaixa: 7 (6.0)
+Bario = mediaalta: 7 (8.0/1.0)
+Bario = alta: 2 (0.0)
+Bario = altissima: 2 (2.0/1.0)
+
+Number of Leaves  : 	32
+
+Size of the tree : 	39

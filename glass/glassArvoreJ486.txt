@@ -1,0 +1,61 @@
+FuzzyDT
+------------------
+
+Bario = baixa
+|   Magnesio = baixissima
+|   |   Potassio = baixa
+|   |   |   Sodio = baixa: 2 (4.0)
+|   |   |   Sodio = media
+|   |   |   |   Aluminio = baixa: 2 (3.0/1.0)
+|   |   |   |   Aluminio = mediabaixa: 2 (3.0/1.0)
+|   |   |   |   Aluminio = media: 5 (5.0/1.0)
+|   |   |   |   Aluminio = mediaalta: 5 (0.0)
+|   |   |   |   Aluminio = alta: 5 (0.0)
+|   |   |   Sodio = alta: 6 (1.0)
+|   |   Potassio = mediabaixa: 7 (1.0)
+|   |   Potassio = mediaalta: 2 (0.0)
+|   |   Potassio = alta: 5 (2.0)
+|   Magnesio = muitobaixa: 5 (2.0/1.0)
+|   Magnesio = baixa: 2 (2.0)
+|   Magnesio = mediabaixa: 5 (9.0/5.0)
+|   Magnesio = mediaalta
+|   |   Aluminio = baixa: 2 (0.0)
+|   |   Aluminio = mediabaixa
+|   |   |   Ferro = baixa: 1 (3.0/1.0)
+|   |   |   Ferro = mediabaixa: 2 (5.0/2.0)
+|   |   |   Ferro = mediaalta: 1 (0.0)
+|   |   |   Ferro = alta: 1 (0.0)
+|   |   Aluminio = media: 2 (3.0/1.0)
+|   |   Aluminio = mediaalta: 2 (0.0)
+|   |   Aluminio = alta: 2 (0.0)
+|   Magnesio = alta
+|   |   IndiceRefracao = baixa: 2 (26.0/9.0)
+|   |   IndiceRefracao = media
+|   |   |   Aluminio = baixa: 2 (1.0)
+|   |   |   Aluminio = mediabaixa: 1 (23.0/5.0)
+|   |   |   Aluminio = media: 3 (5.0/2.0)
+|   |   |   Aluminio = mediaalta: 1 (0.0)
+|   |   |   Aluminio = alta: 1 (0.0)
+|   |   IndiceRefracao = alta: 2 (0.0)
+|   Magnesio = muitoalta
+|   |   Aluminio = baixa: 1 (6.0/2.0)
+|   |   Aluminio = mediabaixa
+|   |   |   IndiceRefracao = baixa: 2 (6.0/2.0)
+|   |   |   IndiceRefracao = media
+|   |   |   |   Ferro = baixa: 1 (35.0/10.0)
+|   |   |   |   Ferro = mediabaixa: 1 (17.0/7.0)
+|   |   |   |   Ferro = mediaalta: 2 (4.0/1.0)
+|   |   |   |   Ferro = alta: 1 (0.0)
+|   |   |   IndiceRefracao = alta: 1 (0.0)
+|   |   Aluminio = media: 2 (18.0/3.0)
+|   |   Aluminio = mediaalta: 1 (0.0)
+|   |   Aluminio = alta: 1 (0.0)
+|   Magnesio = altissima: 1 (1.0)
+Bario = mediabaixa: 7 (14.0/1.0)
+Bario = media: 7 (12.0)
+Bario = mediaalta: 5 (1.0)
+Bario = alta: 2 (2.0/1.0)
+
+Number of Leaves  : 	43
+
+Size of the tree : 	55

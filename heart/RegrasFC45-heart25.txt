@@ -1,0 +1,27 @@
+14
+24
+dc	dc	dc	dc	dc	dc	dc	dc	dc	dc	dc	dc	baixa	0	
+dc	dc	dc	dc	dc	dc	dc	dc	dc	baixa	dc	baixissima	media	1	
+dc	dc	dc	dc	dc	dc	dc	dc	dc	alta	dc	baixissima	media	0	
+dc	baixissima	dc	dc	dc	dc	dc	dc	dc	dc	dc	baixa	media	1	
+dc	baixa	dc	dc	dc	dc	dc	dc	dc	dc	dc	baixa	media	1	
+dc	mediabaixa	dc	dc	dc	dc	dc	dc	dc	dc	dc	baixa	media	1	
+dc	mediaalta	dc	dc	dc	dc	dc	dc	dc	dc	dc	baixa	media	1	
+dc	alta	dc	dc	dc	dc	dc	dc	dc	dc	dc	baixa	media	1	
+dc	altissima	baixa	dc	dc	dc	dc	dc	dc	dc	dc	baixa	media	0	
+baixa	altissima	media	dc	dc	dc	dc	dc	dc	dc	dc	baixa	media	1	
+alta	altissima	media	dc	dc	dc	dc	dc	dc	dc	dc	baixa	media	0	
+dc	altissima	alta	dc	dc	dc	dc	dc	dc	dc	dc	baixa	media	1	
+dc	dc	dc	dc	dc	dc	dc	dc	dc	dc	dc	mediabaixa	media	1	
+baixa	dc	dc	dc	dc	dc	dc	dc	dc	dc	dc	media	media	1	
+alta	dc	dc	dc	dc	dc	baixa	dc	dc	dc	dc	media	media	0	
+alta	dc	dc	dc	dc	dc	alta	dc	dc	dc	dc	media	media	1	
+dc	dc	dc	dc	dc	dc	dc	dc	dc	dc	dc	mediaalta	media	0	
+dc	dc	dc	dc	dc	dc	dc	dc	dc	dc	dc	alta	media	1	
+dc	dc	dc	dc	dc	dc	dc	dc	dc	dc	dc	altissima	media	1	
+dc	dc	baixa	dc	dc	dc	dc	dc	dc	dc	dc	dc	alta	0	
+dc	dc	media	dc	dc	dc	dc	dc	dc	dc	baixa	dc	alta	0	
+dc	dc	media	dc	dc	dc	dc	dc	dc	dc	media	dc	alta	0	
+dc	dc	media	dc	dc	dc	dc	dc	dc	dc	alta	dc	alta	1	
+dc	dc	alta	dc	dc	dc	dc	dc	dc	dc	dc	dc	alta	1	
+

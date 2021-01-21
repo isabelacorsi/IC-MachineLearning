@@ -1,0 +1,10 @@
+4	2	3	2	2	
+triangular	baixa	-23.0	30.0	83.0	
+triangular	alta	30.0	83.0	136.0	
+triangular	baixa	52.5	58.0	63.5	
+triangular	media	58.0	63.5	69.0	
+triangular	alta	63.5	69.0	74.5	
+triangular	baixa	-52.0	0.0	52.0	
+triangular	alta	0.0	52.0	104.0	
+triangular	1	1	1	1	
+triangular	2	2	2	2	

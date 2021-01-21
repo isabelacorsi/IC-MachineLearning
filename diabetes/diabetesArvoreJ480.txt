@@ -1,0 +1,25 @@
+FuzzyDT
+------------------
+
+Glicose = baixa: 0 (196.0/16.0)
+Glicose = alta
+|   Idade = baixa
+|   |   DiabetePFuncoa = baixa: 0 (340.0/120.0)
+|   |   DiabetePFuncoa = alta: 1 (13.0/4.0)
+|   Idade = media
+|   |   Insulina = baixa
+|   |   |   IMC = baixa: 0 (78.0/33.0)
+|   |   |   IMC = alta
+|   |   |   |   DiabetePFuncoa = baixa: 1 (59.0/23.0)
+|   |   |   |   DiabetePFuncoa = alta: 0 (2.0)
+|   |   Insulina = mediabaixa: 1 (60.0/18.0)
+|   |   Insulina = media: 1 (8.0/2.0)
+|   |   Insulina = mediaalta: 1 (2.0)
+|   |   Insulina = alta: 1 (1.0)
+|   Idade = alta
+|   |   IMC = baixa: 0 (6.0/1.0)
+|   |   IMC = alta: 1 (2.0)
+
+Number of Leaves  : 	12
+
+Size of the tree : 	19

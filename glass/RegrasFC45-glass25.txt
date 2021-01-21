@@ -1,0 +1,32 @@
+10
+29
+dc	baixa	baixissima	dc	dc	dc	dc	baixa	dc	2	
+dc	media	baixissima	baixa	dc	dc	dc	baixa	dc	2	
+dc	media	baixissima	media	dc	dc	dc	baixa	dc	5	
+dc	media	baixissima	alta	dc	dc	dc	baixa	dc	5	
+dc	alta	baixissima	dc	dc	dc	dc	baixa	dc	6	
+dc	dc	baixa	dc	dc	dc	dc	baixa	dc	2	
+dc	dc	mediabaixa	dc	dc	dc	dc	baixa	dc	5	
+dc	dc	media	dc	dc	dc	dc	baixa	baixa	6	
+dc	dc	media	dc	dc	dc	dc	baixa	mediabaixa	2	
+dc	dc	media	dc	dc	dc	dc	baixa	mediaalta	6	
+dc	dc	media	dc	dc	dc	dc	baixa	alta	6	
+dc	dc	mediaalta	dc	dc	dc	dc	baixa	dc	2	
+dc	dc	alta	dc	dc	dc	baixa	baixa	dc	2	
+dc	dc	alta	dc	dc	dc	media	baixa	baixa	1	
+dc	dc	alta	baixa	baixa	dc	media	baixa	mediabaixa	1	
+dc	dc	alta	media	baixa	dc	media	baixa	mediabaixa	2	
+dc	dc	alta	alta	baixa	dc	media	baixa	mediabaixa	1	
+dc	dc	alta	baixa	alta	dc	media	baixa	mediabaixa	2	
+dc	dc	alta	media	alta	dc	media	baixa	mediabaixa	1	
+dc	dc	alta	alta	alta	dc	media	baixa	mediabaixa	1	
+dc	dc	alta	dc	baixa	dc	media	baixa	mediaalta	2	
+dc	dc	alta	dc	alta	dc	media	baixa	mediaalta	1	
+dc	dc	alta	dc	dc	dc	media	baixa	alta	1	
+dc	dc	alta	dc	dc	dc	alta	baixa	dc	1	
+dc	dc	altissima	dc	dc	dc	dc	baixa	dc	1	
+dc	dc	dc	dc	dc	dc	dc	mediabaixa	dc	7	
+dc	dc	dc	dc	dc	dc	dc	media	dc	7	
+dc	dc	dc	dc	dc	dc	dc	mediaalta	dc	5	
+dc	dc	dc	dc	dc	dc	dc	alta	dc	2	
+

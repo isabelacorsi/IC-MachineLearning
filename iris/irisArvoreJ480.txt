@@ -1,0 +1,26 @@
+FuzzyDT
+------------------
+
+LarguraPetala = baixa: 1 (50.0)
+LarguraPetala = media
+|   ComprimentoPetala = baixissima: 3 (0.0)
+|   ComprimentoPetala = muitobaixa: 3 (0.0)
+|   ComprimentoPetala = baixa: 3 (1.0)
+|   ComprimentoPetala = mediabaixa: 3 (10.0)
+|   ComprimentoPetala = mediaalta: 3 (34.0/1.0)
+|   ComprimentoPetala = alta
+|   |   ComprimentoSepala = baixissima: 2 (0.0)
+|   |   ComprimentoSepala = muitobaixa: 2 (0.0)
+|   |   ComprimentoSepala = baixa: 2 (0.0)
+|   |   ComprimentoSepala = mediabaixa: 2 (7.0/2.0)
+|   |   ComprimentoSepala = mediaalta: 2 (11.0/1.0)
+|   |   ComprimentoSepala = alta: 3 (3.0)
+|   |   ComprimentoSepala = muitoalta: 2 (0.0)
+|   |   ComprimentoSepala = altissima: 2 (0.0)
+|   ComprimentoPetala = muitoalta: 2 (5.0)
+|   ComprimentoPetala = altissima: 3 (0.0)
+LarguraPetala = alta: 2 (29.0)
+
+Number of Leaves  : 	17
+
+Size of the tree : 	20

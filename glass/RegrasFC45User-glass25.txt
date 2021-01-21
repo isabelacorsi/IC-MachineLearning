@@ -1,0 +1,32 @@
+glass - Total: 29 rules.
+
+IF Sodio IS baixa  AND Magnesio IS baixissima  AND Bario IS baixa THEN CLASS IS 2
+IF Sodio IS media  AND Magnesio IS baixissima  AND Aluminio IS baixa  AND Bario IS baixa THEN CLASS IS 2
+IF Sodio IS media  AND Magnesio IS baixissima  AND Aluminio IS media  AND Bario IS baixa THEN CLASS IS 5
+IF Sodio IS media  AND Magnesio IS baixissima  AND Aluminio IS alta  AND Bario IS baixa THEN CLASS IS 5
+IF Sodio IS alta  AND Magnesio IS baixissima  AND Bario IS baixa THEN CLASS IS 6
+IF Magnesio IS baixa  AND Bario IS baixa THEN CLASS IS 2
+IF Magnesio IS mediabaixa  AND Bario IS baixa THEN CLASS IS 5
+IF Magnesio IS media  AND Bario IS baixa  AND Ferro IS baixa THEN CLASS IS 6
+IF Magnesio IS media  AND Bario IS baixa  AND Ferro IS mediabaixa THEN CLASS IS 2
+IF Magnesio IS media  AND Bario IS baixa  AND Ferro IS mediaalta THEN CLASS IS 6
+IF Magnesio IS media  AND Bario IS baixa  AND Ferro IS alta THEN CLASS IS 6
+IF Magnesio IS mediaalta  AND Bario IS baixa THEN CLASS IS 2
+IF Magnesio IS alta  AND Calcio IS baixa  AND Bario IS baixa THEN CLASS IS 2
+IF Magnesio IS alta  AND Calcio IS media  AND Bario IS baixa  AND Ferro IS baixa THEN CLASS IS 1
+IF Magnesio IS alta  AND Aluminio IS baixa  AND Silicio IS baixa  AND Calcio IS media  AND Bario IS baixa  AND Ferro IS mediabaixa THEN CLASS IS 1
+IF Magnesio IS alta  AND Aluminio IS media  AND Silicio IS baixa  AND Calcio IS media  AND Bario IS baixa  AND Ferro IS mediabaixa THEN CLASS IS 2
+IF Magnesio IS alta  AND Aluminio IS alta  AND Silicio IS baixa  AND Calcio IS media  AND Bario IS baixa  AND Ferro IS mediabaixa THEN CLASS IS 1
+IF Magnesio IS alta  AND Aluminio IS baixa  AND Silicio IS alta  AND Calcio IS media  AND Bario IS baixa  AND Ferro IS mediabaixa THEN CLASS IS 2
+IF Magnesio IS alta  AND Aluminio IS media  AND Silicio IS alta  AND Calcio IS media  AND Bario IS baixa  AND Ferro IS mediabaixa THEN CLASS IS 1
+IF Magnesio IS alta  AND Aluminio IS alta  AND Silicio IS alta  AND Calcio IS media  AND Bario IS baixa  AND Ferro IS mediabaixa THEN CLASS IS 1
+IF Magnesio IS alta  AND Silicio IS baixa  AND Calcio IS media  AND Bario IS baixa  AND Ferro IS mediaalta THEN CLASS IS 2
+IF Magnesio IS alta  AND Silicio IS alta  AND Calcio IS media  AND Bario IS baixa  AND Ferro IS mediaalta THEN CLASS IS 1
+IF Magnesio IS alta  AND Calcio IS media  AND Bario IS baixa  AND Ferro IS alta THEN CLASS IS 1
+IF Magnesio IS alta  AND Calcio IS alta  AND Bario IS baixa THEN CLASS IS 1
+IF Magnesio IS altissima  AND Bario IS baixa THEN CLASS IS 1
+IF Bario IS mediabaixa THEN CLASS IS 7
+IF Bario IS media THEN CLASS IS 7
+IF Bario IS mediaalta THEN CLASS IS 5
+IF Bario IS alta THEN CLASS IS 2
+

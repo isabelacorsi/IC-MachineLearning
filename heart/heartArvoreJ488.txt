@@ -1,0 +1,57 @@
+FuzzyDT
+------------------
+
+thal = baixissima: 0 (2.0/1.0)
+thal = baixa: 1 (0.0)
+thal = mediabaixa
+|   VasosColoridosFluorosopia = baixa
+|   |   Eletrocardiograma = baixa
+|   |   |   AnginaExercicio = baixa: 1 (5.0)
+|   |   |   AnginaExercicio = mediabaixa: 1 (0.0)
+|   |   |   AnginaExercicio = mediaalta: 1 (0.0)
+|   |   |   AnginaExercicio = alta: 0 (3.0/1.0)
+|   |   Eletrocardiograma = alta: 0 (2.0)
+|   VasosColoridosFluorosopia = media: 0 (6.0)
+|   VasosColoridosFluorosopia = alta: 0 (2.0)
+thal = media: 1 (0.0)
+thal = mediaalta
+|   FrequenciaCardiacaMax = baixa
+|   |   Sexo = baixissima
+|   |   |   AnginaExercicio = baixa: 1 (11.0/1.0)
+|   |   |   AnginaExercicio = mediabaixa: 1 (0.0)
+|   |   |   AnginaExercicio = mediaalta: 1 (0.0)
+|   |   |   AnginaExercicio = alta: 0 (3.0/1.0)
+|   |   Sexo = muitobaixa: 0 (0.0)
+|   |   Sexo = baixa: 0 (0.0)
+|   |   Sexo = mediabaixa: 0 (0.0)
+|   |   Sexo = mediaalta: 0 (0.0)
+|   |   Sexo = alta: 0 (0.0)
+|   |   Sexo = muitoalta: 0 (0.0)
+|   |   Sexo = altissima: 0 (15.0/3.0)
+|   FrequenciaCardiacaMax = alta: 1 (137.0/21.0)
+thal = alta: 1 (0.0)
+thal = altissima
+|   DorNoPeito = baixa
+|   |   Eletrocardiograma = baixa: 0 (55.0/1.0)
+|   |   Eletrocardiograma = alta
+|   |   |   DepressaoExercicio = baixa: 1 (8.0/2.0)
+|   |   |   DepressaoExercicio = mediabaixa: 0 (11.0)
+|   |   |   DepressaoExercicio = media: 0 (3.0)
+|   |   |   DepressaoExercicio = mediaalta: 0 (1.0)
+|   |   |   DepressaoExercicio = alta: 0 (0.0)
+|   DorNoPeito = mediabaixa
+|   |   DepressaoExercicio = baixa: 1 (7.0/2.0)
+|   |   DepressaoExercicio = mediabaixa: 0 (2.0)
+|   |   DepressaoExercicio = media: 1 (0.0)
+|   |   DepressaoExercicio = mediaalta: 1 (0.0)
+|   |   DepressaoExercicio = alta: 1 (0.0)
+|   DorNoPeito = mediaalta
+|   |   Inclinacao = baixa: 1 (1.0)
+|   |   Inclinacao = mediabaixa: 0 (14.0/4.0)
+|   |   Inclinacao = mediaalta: 0 (0.0)
+|   |   Inclinacao = alta: 1 (7.0/1.0)
+|   DorNoPeito = alta: 1 (8.0/3.0)
+
+Number of Leaves  : 	39
+
+Size of the tree : 	51

@@ -1,0 +1,42 @@
+Instructions on how to use FuzzyDT:
+
+
+1 - Unzip the FuzzyDT.zip file
+2 - Copy the .dat dataset file (ARFF style) (The arrf file is described here: http://www.cs.waikato.ac.nz/~ml/weka/arff.html)
+3 - Open the terminal and run java -jar FuzzyDT.jar dataset partition_generation_method pruning_confidence_rate number_of_FuzzySets, where:
+	- dataset: just the name of the dataset, iris, for example (not iris.dat, iris.txt, or iris.arff)
+	- Partition_generation_method: you can either predefine a partition file (see the particaoiris.txt example file), or use one of the options for the FuzzyDBD method (see and reference: Cintra, M. E., Monard, M. C., Cherman, E. A., and Camargo, H. A. On the estimation of the number of fuzzy sets for fuzzy rule-based classi?cation systems. In 11th International Conference on Hybrid Intelligent Systems (HIS). Vol. 1. pp. 211-216, 2011. (2011).) to automatically define the fuzzy partitions for the dataset. The options are:
+	* FuzzyDBD using Wang & Mendell, infogain, or relieff, to automatically define the number of fuzzy sets for each attribute individually (just type wm, infogain, or rf)
+	* Fixed: just type the number of fuzzy sets you wish to use for each attribute (the fuzzy sets used by default are triangular, evenly distributed in the attributes domains)
+	* predefined: you need to provide a particaoDATASET.txt file. This file must be placed in a directory with the same name of the dataset
+	- pruning_confidence_rate: standard is 25
+	- numberOfFuzzySets: if you decide to use a fixed number of fuzzy sets for each attribute, simply type this number. It is not used for all other options.
+
+Examples:
+	\\java -jar FuzzyDT.jar  iris wm 25 (using iris dataset with fuzzy partitions defined automatically by FuzzyDBD using the Wang & Mendell method)
+	\\java -jar  FuzzyDT.jar iris rf 25 (using iris dataset with fuzzy partitions defined automatically by FuzzyDBD using reliefF)
+	\\java -jar FuzzyDT.jar  iris fixed 25 5 (using iris dataset with 5 evenly distributed triangular fuzzy sets defining each attribute of the dataset)
+	\\java -jar iris  FuzzyDT.jar  predefined 25 (using iris dataset providing a predefined fuzzy partition file (\iris\particaoiris.txt)
+
+The generated files are (for iris dataset):
+	- FuzzyDT-Regras-iris.txt: the set of generated rules used;
+	- FuzzyDT-RegrasUser-iris.txt: the same set of rules in a user-friendly style;
+	- irisArvoreFuzzyDT.txt: contains the generated fuzzy decision tree, WEKA format
+
+Marcos E. Cintra - mecintra@gmail.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

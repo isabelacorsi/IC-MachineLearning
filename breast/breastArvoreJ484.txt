@@ -1,0 +1,16 @@
+FuzzyDT
+------------------
+
+V6 = baixa
+|   V2 = baixa: 1 (421.0/5.0)
+|   V2 = mediabaixa
+|   |   V1 = baixa: 1 (15.0/2.0)
+|   |   V1 = media: 1 (27.0/9.0)
+|   |   V1 = alta: 2 (12.0/2.0)
+|   V2 = mediaalta: 2 (22.0/3.0)
+|   V2 = alta: 2 (27.0)
+V6 = alta: 2 (174.0/6.0)
+
+Number of Leaves  : 	7
+
+Size of the tree : 	10

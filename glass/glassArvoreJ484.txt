@@ -1,0 +1,70 @@
+FuzzyDT
+------------------
+
+Magnesio = baixa
+|   Bario = baixissima
+|   |   Sodio = baixissima: 2 (3.0/1.0)
+|   |   Sodio = baixa
+|   |   |   IndiceRefracao = baixa: 5 (2.0/1.0)
+|   |   |   IndiceRefracao = alta: 2 (2.0)
+|   |   Sodio = mediabaixa: 5 (11.0/1.0)
+|   |   Sodio = media
+|   |   |   Ferro = baixissima: 6 (7.0/2.0)
+|   |   |   Ferro = muitobaixa: 2 (2.0)
+|   |   |   Ferro = baixa: 2 (2.0)
+|   |   |   Ferro = mediabaixa: 2 (0.0)
+|   |   |   Ferro = mediaalta: 2 (0.0)
+|   |   |   Ferro = alta: 2 (0.0)
+|   |   |   Ferro = muitoalta: 2 (0.0)
+|   |   |   Ferro = altissima: 2 (0.0)
+|   |   Sodio = mediaalta: 6 (2.0/1.0)
+|   |   Sodio = alta: 5 (0.0)
+|   |   Sodio = altissima: 6 (1.0)
+|   Bario = baixa: 7 (12.0)
+|   Bario = mediabaixa: 7 (5.0)
+|   Bario = mediaalta: 7 (6.0)
+|   Bario = alta: 7 (0.0)
+|   Bario = altissima: 2 (2.0/1.0)
+Magnesio = alta
+|   Calcio = baixissima: 7 (3.0/1.0)
+|   Calcio = baixa: 2 (35.0/7.0)
+|   Calcio = mediabaixa
+|   |   Sodio = baixissima: 1 (0.0)
+|   |   Sodio = baixa: 2 (3.0/1.0)
+|   |   Sodio = mediabaixa
+|   |   |   Silicio = baixa: 2 (23.0/11.0)
+|   |   |   Silicio = alta
+|   |   |   |   Aluminio = baixissima: 1 (0.0)
+|   |   |   |   Aluminio = baixa: 2 (4.0/1.0)
+|   |   |   |   Aluminio = mediabaixa: 1 (53.0/18.0)
+|   |   |   |   Aluminio = media: 2 (3.0/1.0)
+|   |   |   |   Aluminio = mediaalta: 1 (0.0)
+|   |   |   |   Aluminio = alta: 1 (0.0)
+|   |   |   |   Aluminio = altissima: 1 (0.0)
+|   |   Sodio = media
+|   |   |   Ferro = baixissima: 1 (20.0/7.0)
+|   |   |   Ferro = muitobaixa: 1 (1.0)
+|   |   |   Ferro = baixa: 2 (3.0/1.0)
+|   |   |   Ferro = mediabaixa: 3 (1.0)
+|   |   |   Ferro = mediaalta: 2 (1.0)
+|   |   |   Ferro = alta: 3 (1.0)
+|   |   |   Ferro = muitoalta: 1 (0.0)
+|   |   |   Ferro = altissima: 1 (0.0)
+|   |   Sodio = mediaalta: 1 (1.0)
+|   |   Sodio = alta: 1 (0.0)
+|   |   Sodio = altissima: 1 (0.0)
+|   Calcio = media
+|   |   Sodio = baixissima: 1 (0.0)
+|   |   Sodio = baixa: 1 (0.0)
+|   |   Sodio = mediabaixa: 1 (2.0)
+|   |   Sodio = media: 2 (3.0/1.0)
+|   |   Sodio = mediaalta: 1 (0.0)
+|   |   Sodio = alta: 1 (0.0)
+|   |   Sodio = altissima: 1 (0.0)
+|   Calcio = mediaalta: 1 (0.0)
+|   Calcio = alta: 1 (0.0)
+|   Calcio = altissima: 1 (0.0)
+
+Number of Leaves  : 	53
+
+Size of the tree : 	64

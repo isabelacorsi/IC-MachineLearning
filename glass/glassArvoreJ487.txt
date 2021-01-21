@@ -1,0 +1,39 @@
+FuzzyDT
+------------------
+
+Bario = baixa
+|   Magnesio = baixa
+|   |   Aluminio = baixissima: 6 (3.0/1.0)
+|   |   Aluminio = baixa: 2 (6.0/1.0)
+|   |   Aluminio = mediabaixa
+|   |   |   IndiceRefracao = baixa: 5 (0.0)
+|   |   |   IndiceRefracao = mediabaixa: 5 (5.0)
+|   |   |   IndiceRefracao = mediaalta: 2 (3.0/1.0)
+|   |   |   IndiceRefracao = alta: 5 (0.0)
+|   |   Aluminio = mediaalta: 6 (1.0)
+|   |   Aluminio = alta: 5 (2.0)
+|   |   Aluminio = altissima: 2 (0.0)
+|   Magnesio = mediabaixa: 2 (4.0/2.0)
+|   Magnesio = media
+|   |   Ferro = baixissima: 6 (10.0/5.0)
+|   |   Ferro = baixa: 6 (0.0)
+|   |   Ferro = mediabaixa: 2 (4.0/1.0)
+|   |   Ferro = mediaalta: 6 (0.0)
+|   |   Ferro = alta: 6 (0.0)
+|   |   Ferro = altissima: 6 (0.0)
+|   Magnesio = mediaalta
+|   |   Aluminio = baixissima: 1 (5.0/1.0)
+|   |   Aluminio = baixa: 1 (53.0/20.0)
+|   |   Aluminio = mediabaixa: 2 (82.0/40.0)
+|   |   Aluminio = mediaalta: 2 (3.0)
+|   |   Aluminio = alta: 1 (0.0)
+|   |   Aluminio = altissima: 1 (0.0)
+|   Magnesio = alta: 2 (4.0/1.0)
+Bario = mediabaixa: 7 (14.0/1.0)
+Bario = media: 7 (12.0)
+Bario = mediaalta: 5 (1.0)
+Bario = alta: 2 (2.0/1.0)
+
+Number of Leaves  : 	27
+
+Size of the tree : 	33

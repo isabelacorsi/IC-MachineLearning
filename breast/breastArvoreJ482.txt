@@ -1,0 +1,28 @@
+FuzzyDT
+------------------
+
+V3 = baixa
+|   V6 = baixa: 1 (400.0/2.0)
+|   V6 = mediabaixa
+|   |   V1 = baixa: 1 (29.0)
+|   |   V1 = media
+|   |   |   V7 = baixissima: 1 (2.0)
+|   |   |   V7 = baixa
+|   |   |   |   V4 = baixa: 1 (5.0/1.0)
+|   |   |   |   V4 = mediabaixa: 2 (2.0)
+|   |   |   |   V4 = media: 1 (0.0)
+|   |   |   |   V4 = mediaalta: 1 (0.0)
+|   |   |   |   V4 = alta: 1 (1.0)
+|   |   |   V7 = mediabaixa: 2 (3.0)
+|   |   |   V7 = mediaalta: 2 (1.0)
+|   |   |   V7 = alta: 1 (0.0)
+|   |   |   V7 = altissima: 1 (0.0)
+|   |   V1 = alta: 2 (3.0)
+|   V6 = mediaalta: 2 (4.0)
+|   V6 = alta: 2 (18.0/2.0)
+V3 = media: 2 (138.0/21.0)
+V3 = alta: 2 (92.0/1.0)
+
+Number of Leaves  : 	17
+
+Size of the tree : 	22

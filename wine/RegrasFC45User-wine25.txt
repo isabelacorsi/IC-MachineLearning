@@ -1,0 +1,85 @@
+wine - Total: 82 rules.
+
+IF Sulfato IS baixa  AND Alcool IS baixa THEN CLASS IS 5
+IF AcidezFixa IS baixa  AND AcidezVolatil IS baixissima  AND Sulfato IS mediabaixa  AND Alcool IS baixa THEN CLASS IS 6
+IF AcidezFixa IS media  AND AcidezVolatil IS baixissima  AND Sulfato IS mediabaixa  AND Alcool IS baixa THEN CLASS IS 6
+IF AcidezFixa IS alta  AND AcidezVolatil IS baixissima  AND Sulfato IS mediabaixa  AND Alcool IS baixa THEN CLASS IS 7
+IF AcidezVolatil IS baixa  AND AcucarResidual IS baixa  AND DioxidoEnxofreLivre IS baixa  AND Densidade IS baixa  AND PH IS baixa  AND Sulfato IS mediabaixa  AND Alcool IS baixa THEN CLASS IS 5
+IF AcidezVolatil IS baixa  AND AcucarResidual IS baixa  AND DioxidoEnxofreLivre IS baixa  AND Densidade IS alta  AND PH IS baixa  AND Sulfato IS mediabaixa  AND Alcool IS baixa THEN CLASS IS 6
+IF AcidezVolatil IS baixa  AND AcucarResidual IS baixa  AND DioxidoEnxofreLivre IS baixa  AND Densidade IS baixa  AND PH IS alta  AND Sulfato IS mediabaixa  AND Alcool IS baixa THEN CLASS IS 6
+IF AcidezVolatil IS baixa  AND AcucarResidual IS baixa  AND DioxidoEnxofreLivre IS baixa  AND Densidade IS alta  AND PH IS alta  AND Sulfato IS mediabaixa  AND Alcool IS baixa THEN CLASS IS 5
+IF AcidezVolatil IS baixa  AND AcucarResidual IS baixa  AND DioxidoEnxofreLivre IS alta  AND Sulfato IS mediabaixa  AND Alcool IS baixa THEN CLASS IS 5
+IF AcidezVolatil IS baixa  AND AcucarResidual IS mediabaixa  AND Sulfato IS mediabaixa  AND Alcool IS baixa THEN CLASS IS 5
+IF AcidezVolatil IS baixa  AND AcucarResidual IS mediaalta  AND Sulfato IS mediabaixa  AND Alcool IS baixa THEN CLASS IS 5
+IF AcidezVolatil IS baixa  AND AcucarResidual IS alta  AND Sulfato IS mediabaixa  AND Alcool IS baixa THEN CLASS IS 5
+IF AcidezVolatil IS mediabaixa  AND Sulfato IS mediabaixa  AND Alcool IS baixa THEN CLASS IS 5
+IF AcidezVolatil IS media  AND Sulfato IS mediabaixa  AND Alcool IS baixa THEN CLASS IS 5
+IF AcidezFixa IS baixa  AND AcidezVolatil IS mediaalta  AND Sulfato IS mediabaixa  AND Alcool IS baixa THEN CLASS IS 3
+IF AcidezFixa IS media  AND AcidezVolatil IS mediaalta  AND Sulfato IS mediabaixa  AND Alcool IS baixa THEN CLASS IS 6
+IF AcidezFixa IS alta  AND AcidezVolatil IS mediaalta  AND Sulfato IS mediabaixa  AND Alcool IS baixa THEN CLASS IS 6
+IF AcidezVolatil IS alta  AND Sulfato IS mediabaixa  AND Alcool IS baixa THEN CLASS IS 5
+IF AcidezVolatil IS altissima  AND Sulfato IS mediabaixa  AND Alcool IS baixa THEN CLASS IS 5
+IF AcidezFixa IS baixa  AND PH IS baixa  AND Sulfato IS media  AND Alcool IS baixa THEN CLASS IS 5
+IF AcidezFixa IS baixa  AND PH IS alta  AND Sulfato IS media  AND Alcool IS baixa THEN CLASS IS 6
+IF AcidezFixa IS media  AND Sulfato IS media  AND Alcool IS baixa THEN CLASS IS 5
+IF AcidezFixa IS alta  AND Sulfato IS media  AND Alcool IS baixa THEN CLASS IS 5
+IF Sulfato IS mediaalta  AND Alcool IS baixa THEN CLASS IS 5
+IF Sulfato IS alta  AND Alcool IS baixa THEN CLASS IS 6
+IF AcidezVolatil IS baixissima  AND Alcool IS media THEN CLASS IS 6
+IF AcidezVolatil IS baixa  AND AcucarResidual IS baixa  AND Alcool IS media THEN CLASS IS 6
+IF AcidezVolatil IS baixa  AND AcucarResidual IS mediabaixa  AND Densidade IS baixa  AND Alcool IS media THEN CLASS IS 7
+IF AcidezFixa IS baixa  AND AcidezVolatil IS baixa  AND AcucarResidual IS mediabaixa  AND Densidade IS alta  AND Alcool IS media THEN CLASS IS 5
+IF AcidezFixa IS media  AND AcidezVolatil IS baixa  AND AcucarResidual IS mediabaixa  AND Densidade IS alta  AND Alcool IS media THEN CLASS IS 7
+IF AcidezFixa IS alta  AND AcidezVolatil IS baixa  AND AcucarResidual IS mediabaixa  AND Densidade IS alta  AND Alcool IS media THEN CLASS IS 6
+IF AcidezVolatil IS baixa  AND AcidoCitrico IS baixa  AND AcucarResidual IS mediaalta  AND Alcool IS media THEN CLASS IS 6
+IF AcidezVolatil IS baixa  AND AcidoCitrico IS alta  AND AcucarResidual IS mediaalta  AND Alcool IS media THEN CLASS IS 7
+IF AcidezVolatil IS baixa  AND AcucarResidual IS alta  AND Alcool IS media THEN CLASS IS 6
+IF AcidezVolatil IS mediabaixa  AND AcidoCitrico IS baixa  AND AcucarResidual IS baixa  AND PH IS baixa  AND Sulfato IS baixa  AND Alcool IS media THEN CLASS IS 5
+IF AcidezVolatil IS mediabaixa  AND AcidoCitrico IS baixa  AND AcucarResidual IS mediabaixa  AND PH IS baixa  AND Sulfato IS baixa  AND Alcool IS media THEN CLASS IS 6
+IF AcidezVolatil IS mediabaixa  AND AcidoCitrico IS baixa  AND AcucarResidual IS mediaalta  AND PH IS baixa  AND Sulfato IS baixa  AND Alcool IS media THEN CLASS IS 5
+IF AcidezVolatil IS mediabaixa  AND AcidoCitrico IS baixa  AND AcucarResidual IS alta  AND PH IS baixa  AND Sulfato IS baixa  AND Alcool IS media THEN CLASS IS 5
+IF AcidezVolatil IS mediabaixa  AND AcidoCitrico IS baixa  AND PH IS alta  AND Sulfato IS baixa  AND Alcool IS media THEN CLASS IS 5
+IF AcidezFixa IS baixa  AND AcidezVolatil IS mediabaixa  AND AcidoCitrico IS baixa  AND Densidade IS baixa  AND Sulfato IS mediabaixa  AND Alcool IS media THEN CLASS IS 6
+IF AcidezFixa IS baixa  AND AcidezVolatil IS mediabaixa  AND AcidoCitrico IS baixa  AND Densidade IS alta  AND Sulfato IS mediabaixa  AND Alcool IS media THEN CLASS IS 5
+IF AcidezFixa IS media  AND AcidezVolatil IS mediabaixa  AND AcidoCitrico IS baixa  AND Sulfato IS mediabaixa  AND Alcool IS media THEN CLASS IS 6
+IF AcidezFixa IS alta  AND AcidezVolatil IS mediabaixa  AND AcidoCitrico IS baixa  AND Sulfato IS mediabaixa  AND Alcool IS media THEN CLASS IS 5
+IF AcidezVolatil IS mediabaixa  AND AcidoCitrico IS baixa  AND Sulfato IS media  AND Alcool IS media THEN CLASS IS 5
+IF AcidezVolatil IS mediabaixa  AND AcidoCitrico IS baixa  AND Sulfato IS mediaalta  AND Alcool IS media THEN CLASS IS 6
+IF AcidezVolatil IS mediabaixa  AND AcidoCitrico IS baixa  AND Sulfato IS alta  AND Alcool IS media THEN CLASS IS 6
+IF AcidezVolatil IS mediabaixa  AND AcidoCitrico IS alta  AND AcucarResidual IS baixa  AND Alcool IS media THEN CLASS IS 6
+IF AcidezVolatil IS mediabaixa  AND AcidoCitrico IS alta  AND AcucarResidual IS mediabaixa  AND Alcool IS media THEN CLASS IS 7
+IF AcidezVolatil IS mediabaixa  AND AcidoCitrico IS alta  AND AcucarResidual IS mediaalta  AND Alcool IS media THEN CLASS IS 7
+IF AcidezVolatil IS mediabaixa  AND AcidoCitrico IS alta  AND AcucarResidual IS alta  AND Alcool IS media THEN CLASS IS 7
+IF AcidezVolatil IS media  AND AcucarResidual IS baixa  AND Cloreto IS baixa  AND PH IS baixa  AND Sulfato IS baixa  AND Alcool IS media THEN CLASS IS 5
+IF AcidezVolatil IS media  AND AcucarResidual IS baixa  AND Cloreto IS baixa  AND PH IS alta  AND Sulfato IS baixa  AND Alcool IS media THEN CLASS IS 6
+IF AcidezVolatil IS media  AND AcucarResidual IS baixa  AND Cloreto IS media  AND Sulfato IS baixa  AND Alcool IS media THEN CLASS IS 5
+IF AcidezVolatil IS media  AND AcucarResidual IS baixa  AND Cloreto IS alta  AND Sulfato IS baixa  AND Alcool IS media THEN CLASS IS 5
+IF AcidezVolatil IS media  AND AcucarResidual IS baixa  AND Sulfato IS mediabaixa  AND Alcool IS media THEN CLASS IS 6
+IF AcidezVolatil IS media  AND AcucarResidual IS baixa  AND Sulfato IS media  AND Alcool IS media THEN CLASS IS 5
+IF AcidezVolatil IS media  AND AcucarResidual IS baixa  AND Sulfato IS mediaalta  AND Alcool IS media THEN CLASS IS 6
+IF AcidezVolatil IS media  AND AcucarResidual IS baixa  AND Sulfato IS alta  AND Alcool IS media THEN CLASS IS 6
+IF AcidezVolatil IS media  AND AcucarResidual IS mediabaixa  AND Densidade IS baixa  AND Alcool IS media THEN CLASS IS 5
+IF AcidezVolatil IS media  AND AcucarResidual IS mediabaixa  AND Densidade IS alta  AND Sulfato IS baixa  AND Alcool IS media THEN CLASS IS 3
+IF AcidezVolatil IS media  AND AcucarResidual IS mediabaixa  AND Densidade IS alta  AND Sulfato IS mediabaixa  AND Alcool IS media THEN CLASS IS 4
+IF AcidezVolatil IS media  AND AcucarResidual IS mediabaixa  AND Densidade IS alta  AND Sulfato IS media  AND Alcool IS media THEN CLASS IS 4
+IF AcidezVolatil IS media  AND AcucarResidual IS mediabaixa  AND Densidade IS alta  AND Sulfato IS mediaalta  AND Alcool IS media THEN CLASS IS 4
+IF AcidezVolatil IS media  AND AcucarResidual IS mediabaixa  AND Densidade IS alta  AND Sulfato IS alta  AND Alcool IS media THEN CLASS IS 4
+IF AcidezVolatil IS media  AND AcucarResidual IS mediaalta  AND Alcool IS media THEN CLASS IS 6
+IF AcidezVolatil IS media  AND AcucarResidual IS alta  AND Alcool IS media THEN CLASS IS 6
+IF AcidezVolatil IS mediaalta  AND AcucarResidual IS baixa  AND PH IS baixa  AND Alcool IS media THEN CLASS IS 5
+IF AcidezVolatil IS mediaalta  AND AcucarResidual IS baixa  AND PH IS alta  AND Alcool IS media THEN CLASS IS 4
+IF AcidezVolatil IS mediaalta  AND AcucarResidual IS mediabaixa  AND Alcool IS media THEN CLASS IS 3
+IF AcidezVolatil IS mediaalta  AND AcucarResidual IS mediaalta  AND Alcool IS media THEN CLASS IS 4
+IF AcidezVolatil IS mediaalta  AND AcucarResidual IS alta  AND Alcool IS media THEN CLASS IS 4
+IF AcidezVolatil IS alta  AND Alcool IS media THEN CLASS IS 5
+IF AcidezVolatil IS altissima  AND Alcool IS media THEN CLASS IS 3
+IF AcidezVolatil IS baixissima  AND Alcool IS alta THEN CLASS IS 6
+IF AcidezVolatil IS baixa  AND AcidoCitrico IS baixa  AND Densidade IS baixa  AND Alcool IS alta THEN CLASS IS 6
+IF AcidezVolatil IS baixa  AND AcidoCitrico IS alta  AND Densidade IS baixa  AND Alcool IS alta THEN CLASS IS 7
+IF AcidezVolatil IS baixa  AND Densidade IS alta  AND Alcool IS alta THEN CLASS IS 5
+IF AcidezVolatil IS mediabaixa  AND Alcool IS alta THEN CLASS IS 8
+IF AcidezVolatil IS media  AND Alcool IS alta THEN CLASS IS 6
+IF AcidezVolatil IS mediaalta  AND Alcool IS alta THEN CLASS IS 6
+IF AcidezVolatil IS alta  AND Alcool IS alta THEN CLASS IS 6
+IF AcidezVolatil IS altissima  AND Alcool IS alta THEN CLASS IS 6
+

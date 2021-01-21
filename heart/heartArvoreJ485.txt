@@ -1,0 +1,36 @@
+FuzzyDT
+------------------
+
+thal = baixa: 0 (2.0/1.0)
+thal = mediabaixa
+|   VasosColoridosFluorosopia = baixa
+|   |   Eletrocardiograma = baixa: 1 (5.0)
+|   |   Eletrocardiograma = alta: 0 (4.0/1.0)
+|   VasosColoridosFluorosopia = media: 0 (7.0)
+|   VasosColoridosFluorosopia = alta: 0 (2.0)
+thal = media: 1 (0.0)
+thal = mediaalta
+|   VasosColoridosFluorosopia = baixa: 1 (128.0/16.0)
+|   VasosColoridosFluorosopia = media
+|   |   Sexo = baixa
+|   |   |   Inclinacao = baixa: 0 (1.0)
+|   |   |   Inclinacao = mediabaixa: 0 (5.0/2.0)
+|   |   |   Inclinacao = mediaalta: 1 (0.0)
+|   |   |   Inclinacao = alta: 1 (11.0/1.0)
+|   |   Sexo = alta: 0 (14.0/2.0)
+|   VasosColoridosFluorosopia = alta
+|   |   DorNoPeito = baixa: 0 (3.0)
+|   |   DorNoPeito = media: 1 (4.0)
+|   |   DorNoPeito = alta: 1 (0.0)
+thal = alta
+|   DorNoPeito = baixa: 0 (78.0/7.0)
+|   DorNoPeito = media
+|   |   DepressaoExercicio = baixa: 1 (19.0/6.0)
+|   |   DepressaoExercicio = mediabaixa: 0 (11.0/3.0)
+|   |   DepressaoExercicio = mediaalta: 0 (1.0)
+|   |   DepressaoExercicio = alta: 1 (0.0)
+|   DorNoPeito = alta: 1 (8.0/3.0)
+
+Number of Leaves  : 	21
+
+Size of the tree : 	30

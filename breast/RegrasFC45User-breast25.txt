@@ -1,0 +1,21 @@
+breast - Total: 18 rules.
+
+IF V1 IS baixa  AND V6 IS baixa  AND V7 IS baixa THEN CLASS IS 1
+IF V1 IS baixa  AND V6 IS media  AND V7 IS baixa  AND V8 IS baixissima THEN CLASS IS 1
+IF V1 IS baixa  AND V6 IS media  AND V7 IS baixa  AND V8 IS baixa THEN CLASS IS 1
+IF V1 IS baixa  AND V6 IS media  AND V7 IS baixa  AND V8 IS mediabaixa THEN CLASS IS 2
+IF V1 IS baixa  AND V6 IS media  AND V7 IS baixa  AND V8 IS mediaalta THEN CLASS IS 2
+IF V1 IS baixa  AND V6 IS media  AND V7 IS baixa  AND V8 IS alta THEN CLASS IS 1
+IF V1 IS baixa  AND V6 IS media  AND V7 IS baixa  AND V8 IS altissima THEN CLASS IS 1
+IF V1 IS baixa  AND V4 IS baixa  AND V6 IS alta  AND V7 IS baixa THEN CLASS IS 1
+IF V1 IS baixa  AND V4 IS alta  AND V6 IS alta  AND V7 IS baixa THEN CLASS IS 2
+IF V1 IS alta  AND V2 IS baixissima  AND V7 IS baixa THEN CLASS IS 1
+IF V1 IS alta  AND V2 IS baixa  AND V7 IS baixa THEN CLASS IS 2
+IF V1 IS alta  AND V2 IS mediabaixa  AND V7 IS baixa THEN CLASS IS 2
+IF V1 IS alta  AND V2 IS media  AND V7 IS baixa THEN CLASS IS 2
+IF V1 IS alta  AND V2 IS mediaalta  AND V7 IS baixa THEN CLASS IS 2
+IF V1 IS alta  AND V2 IS alta  AND V7 IS baixa THEN CLASS IS 2
+IF V1 IS alta  AND V2 IS altissima  AND V7 IS baixa THEN CLASS IS 2
+IF V7 IS media THEN CLASS IS 2
+IF V7 IS alta THEN CLASS IS 2
+

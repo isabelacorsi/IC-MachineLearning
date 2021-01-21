@@ -1,0 +1,58 @@
+FuzzyDT
+------------------
+
+thal = baixissima: 0 (2.0/1.0)
+thal = muitobaixa: 1 (0.0)
+thal = baixa
+|   VasosColoridosFluorosopia = baixa
+|   |   AnginaExercicio = baixa
+|   |   |   DepressaoExercicio = baixa: 1 (3.0)
+|   |   |   DepressaoExercicio = mediabaixa
+|   |   |   |   FrequenciaCardiacaMax = baixa: 0 (1.0)
+|   |   |   |   FrequenciaCardiacaMax = mediabaixa: 0 (2.0)
+|   |   |   |   FrequenciaCardiacaMax = mediaalta: 1 (2.0)
+|   |   |   |   FrequenciaCardiacaMax = alta: 0 (0.0)
+|   |   |   DepressaoExercicio = media: 1 (0.0)
+|   |   |   DepressaoExercicio = mediaalta: 1 (0.0)
+|   |   |   DepressaoExercicio = alta: 1 (0.0)
+|   |   AnginaExercicio = alta: 0 (7.0/1.0)
+|   VasosColoridosFluorosopia = alta: 0 (3.0)
+thal = mediabaixa: 1 (0.0)
+thal = mediaalta: 1 (0.0)
+thal = alta
+|   DorNoPeito = baixa
+|   |   AnginaExercicio = baixa: 1 (31.0/8.0)
+|   |   AnginaExercicio = alta
+|   |   |   FrequenciaCardiacaMax = baixa: 0 (0.0)
+|   |   |   FrequenciaCardiacaMax = mediabaixa: 0 (10.0)
+|   |   |   FrequenciaCardiacaMax = mediaalta
+|   |   |   |   DepressaoExercicio = baixa: 1 (6.0/2.0)
+|   |   |   |   DepressaoExercicio = mediabaixa: 0 (3.0)
+|   |   |   |   DepressaoExercicio = media: 1 (1.0)
+|   |   |   |   DepressaoExercicio = mediaalta: 0 (0.0)
+|   |   |   |   DepressaoExercicio = alta: 0 (0.0)
+|   |   |   FrequenciaCardiacaMax = alta: 1 (1.0)
+|   DorNoPeito = media: 1 (101.0/9.0)
+|   DorNoPeito = alta: 1 (13.0/4.0)
+thal = muitoalta: 1 (0.0)
+thal = altissima
+|   DorNoPeito = baixa: 0 (78.0/7.0)
+|   DorNoPeito = media
+|   |   DepressaoExercicio = baixa: 1 (15.0/4.0)
+|   |   DepressaoExercicio = mediabaixa
+|   |   |   Inclinacao = baixissima: 0 (2.0/1.0)
+|   |   |   Inclinacao = muitobaixa: 0 (0.0)
+|   |   |   Inclinacao = baixa: 0 (0.0)
+|   |   |   Inclinacao = mediabaixa: 0 (9.0/2.0)
+|   |   |   Inclinacao = mediaalta: 0 (0.0)
+|   |   |   Inclinacao = alta: 0 (0.0)
+|   |   |   Inclinacao = muitoalta: 0 (0.0)
+|   |   |   Inclinacao = altissima: 1 (2.0)
+|   |   DepressaoExercicio = media: 0 (3.0)
+|   |   DepressaoExercicio = mediaalta: 1 (0.0)
+|   |   DepressaoExercicio = alta: 1 (0.0)
+|   DorNoPeito = alta: 1 (8.0/3.0)
+
+Number of Leaves  : 	40
+
+Size of the tree : 	52

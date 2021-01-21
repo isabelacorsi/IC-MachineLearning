@@ -1,0 +1,46 @@
+FuzzyDT
+------------------
+
+Alcool = baixa
+|   AcidezFixa = baixa
+|   |   AcucarResidual = baixa: 5 (1159.0/553.0)
+|   |   AcucarResidual = alta: 6 (15.0/4.0)
+|   AcidezFixa = alta
+|   |   PH = baixa: 5 (37.0/21.0)
+|   |   PH = media
+|   |   |   DioxidoEnxofreTotal = baixissima
+|   |   |   |   Densidade = baixa: 6 (0.0)
+|   |   |   |   Densidade = media: 6 (81.0/37.0)
+|   |   |   |   Densidade = alta: 5 (4.0)
+|   |   |   DioxidoEnxofreTotal = baixa: 6 (59.0/24.0)
+|   |   |   DioxidoEnxofreTotal = mediabaixa: 5 (9.0/4.0)
+|   |   |   DioxidoEnxofreTotal = media: 6 (0.0)
+|   |   |   DioxidoEnxofreTotal = mediaalta: 6 (0.0)
+|   |   |   DioxidoEnxofreTotal = alta: 6 (0.0)
+|   |   |   DioxidoEnxofreTotal = altissima: 6 (0.0)
+|   |   PH = alta: 6 (0.0)
+Alcool = alta
+|   DioxidoEnxofreTotal = baixissima
+|   |   Densidade = baixa: 6 (20.0/11.0)
+|   |   Densidade = media
+|   |   |   AcidezFixa = baixa: 7 (84.0/38.0)
+|   |   |   AcidezFixa = alta: 6 (21.0/9.0)
+|   |   Densidade = alta: 6 (1.0)
+|   DioxidoEnxofreTotal = baixa
+|   |   AcidezFixa = baixa: 6 (74.0/25.0)
+|   |   AcidezFixa = alta: 7 (11.0/5.0)
+|   DioxidoEnxofreTotal = mediabaixa
+|   |   PH = baixa: 6 (2.0)
+|   |   PH = media
+|   |   |   Densidade = baixa: 7 (12.0/3.0)
+|   |   |   Densidade = media: 5 (5.0/3.0)
+|   |   |   Densidade = alta: 5 (1.0)
+|   |   PH = alta: 6 (1.0)
+|   DioxidoEnxofreTotal = media: 6 (1.0)
+|   DioxidoEnxofreTotal = mediaalta: 6 (0.0)
+|   DioxidoEnxofreTotal = alta: 6 (0.0)
+|   DioxidoEnxofreTotal = altissima: 7 (2.0)
+
+Number of Leaves  : 	28
+
+Size of the tree : 	40

@@ -1,0 +1,20 @@
+3	8	8	3	
+triangular	baixissima	-0.28571427	1.0	2.2857141	
+triangular	muitobaixa	1.0	2.2857141	3.5714283	
+triangular	baixa	2.2857141	3.5714283	4.8571424	
+triangular	mediabaixa	3.5714283	4.8571424	6.1428566	
+triangular	mediaalta	4.8571424	6.1428566	7.4285707	
+triangular	alta	6.1428566	7.4285707	8.714285	
+triangular	muitoalta	7.4285707	8.714285	9.999999	
+triangular	altissima	8.714285	9.999999	11.285713	
+triangular	baixissima	-6.4285717	-5.0	-3.5714285	
+triangular	muitobaixa	-5.0	-3.5714285	-2.142857	
+triangular	baixa	-3.5714285	-2.142857	-0.7142856	
+triangular	mediabaixa	-2.142857	-0.7142856	0.71428585	
+triangular	mediaalta	-0.7142856	0.71428585	2.1428573	
+triangular	alta	0.71428585	2.1428573	3.5714288	
+triangular	muitoalta	2.1428573	3.5714288	5.0	
+triangular	altissima	3.5714288	5.0	6.4285717	
+triangular	3	3	3	3	
+triangular	5	5	5	5	
+triangular	7	7	7	7	

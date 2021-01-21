@@ -1,0 +1,27 @@
+heart - Total: 24 rules.
+
+IF thal IS baixa THEN CLASS IS 0
+IF DepressaoExercicio IS baixa  AND VasosColoridosFluorosopia IS baixissima  AND thal IS media THEN CLASS IS 1
+IF DepressaoExercicio IS alta  AND VasosColoridosFluorosopia IS baixissima  AND thal IS media THEN CLASS IS 0
+IF Sexo IS baixissima  AND VasosColoridosFluorosopia IS baixa  AND thal IS media THEN CLASS IS 1
+IF Sexo IS baixa  AND VasosColoridosFluorosopia IS baixa  AND thal IS media THEN CLASS IS 1
+IF Sexo IS mediabaixa  AND VasosColoridosFluorosopia IS baixa  AND thal IS media THEN CLASS IS 1
+IF Sexo IS mediaalta  AND VasosColoridosFluorosopia IS baixa  AND thal IS media THEN CLASS IS 1
+IF Sexo IS alta  AND VasosColoridosFluorosopia IS baixa  AND thal IS media THEN CLASS IS 1
+IF Sexo IS altissima  AND DorNoPeito IS baixa  AND VasosColoridosFluorosopia IS baixa  AND thal IS media THEN CLASS IS 0
+IF Idade IS baixa  AND Sexo IS altissima  AND DorNoPeito IS media  AND VasosColoridosFluorosopia IS baixa  AND thal IS media THEN CLASS IS 1
+IF Idade IS alta  AND Sexo IS altissima  AND DorNoPeito IS media  AND VasosColoridosFluorosopia IS baixa  AND thal IS media THEN CLASS IS 0
+IF Sexo IS altissima  AND DorNoPeito IS alta  AND VasosColoridosFluorosopia IS baixa  AND thal IS media THEN CLASS IS 1
+IF VasosColoridosFluorosopia IS mediabaixa  AND thal IS media THEN CLASS IS 1
+IF Idade IS baixa  AND VasosColoridosFluorosopia IS media  AND thal IS media THEN CLASS IS 1
+IF Idade IS alta  AND Eletrocardiograma IS baixa  AND VasosColoridosFluorosopia IS media  AND thal IS media THEN CLASS IS 0
+IF Idade IS alta  AND Eletrocardiograma IS alta  AND VasosColoridosFluorosopia IS media  AND thal IS media THEN CLASS IS 1
+IF VasosColoridosFluorosopia IS mediaalta  AND thal IS media THEN CLASS IS 0
+IF VasosColoridosFluorosopia IS alta  AND thal IS media THEN CLASS IS 1
+IF VasosColoridosFluorosopia IS altissima  AND thal IS media THEN CLASS IS 1
+IF DorNoPeito IS baixa  AND thal IS alta THEN CLASS IS 0
+IF DorNoPeito IS media  AND Inclinacao IS baixa  AND thal IS alta THEN CLASS IS 0
+IF DorNoPeito IS media  AND Inclinacao IS media  AND thal IS alta THEN CLASS IS 0
+IF DorNoPeito IS media  AND Inclinacao IS alta  AND thal IS alta THEN CLASS IS 1
+IF DorNoPeito IS alta  AND thal IS alta THEN CLASS IS 1
+

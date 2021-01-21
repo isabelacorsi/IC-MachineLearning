@@ -1,0 +1,55 @@
+FuzzyDT
+------------------
+
+Alcool = baixa
+|   AcidezVolatil = baixa
+|   |   Sulfato = baixa
+|   |   |   AcidoCitrico = baixa: 5 (6.0/2.0)
+|   |   |   AcidoCitrico = media
+|   |   |   |   Densidade = baixa: 6 (0.0)
+|   |   |   |   Densidade = mediabaixa: 6 (6.0/2.0)
+|   |   |   |   Densidade = mediaalta
+|   |   |   |   |   AcidezFixa = baixa: 5 (3.0)
+|   |   |   |   |   AcidezFixa = media: 6 (29.0/13.0)
+|   |   |   |   |   AcidezFixa = alta: 6 (1.0)
+|   |   |   |   Densidade = alta: 5 (1.0)
+|   |   |   AcidoCitrico = alta: 5 (0.0)
+|   |   Sulfato = media: 6 (28.0/12.0)
+|   |   Sulfato = alta: 5 (1.0)
+|   AcidezVolatil = mediabaixa
+|   |   AcucarResidual = baixa: 5 (632.0/210.0)
+|   |   AcucarResidual = alta: 6 (7.0/2.0)
+|   AcidezVolatil = mediaalta: 5 (33.0/10.0)
+|   AcidezVolatil = alta: 5 (0.0)
+Alcool = media
+|   AcidezVolatil = baixa
+|   |   Sulfato = baixa: 6 (128.0/63.0)
+|   |   Sulfato = media
+|   |   |   Densidade = baixa: 7 (0.0)
+|   |   |   Densidade = mediabaixa: 7 (62.0/24.0)
+|   |   |   Densidade = mediaalta: 6 (40.0/20.0)
+|   |   |   Densidade = alta: 7 (0.0)
+|   |   Sulfato = alta: 6 (0.0)
+|   AcidezVolatil = mediabaixa
+|   |   AcidezFixa = baixa
+|   |   |   AcucarResidual = baixa
+|   |   |   |   Densidade = baixa: 6 (5.0)
+|   |   |   |   Densidade = mediabaixa: 6 (229.0/110.0)
+|   |   |   |   Densidade = mediaalta: 5 (21.0/6.0)
+|   |   |   |   Densidade = alta: 6 (0.0)
+|   |   |   AcucarResidual = alta: 6 (4.0)
+|   |   AcidezFixa = media: 6 (294.0/130.0)
+|   |   AcidezFixa = alta: 5 (7.0/3.0)
+|   AcidezVolatil = mediaalta
+|   |   PH = baixa: 5 (9.0/3.0)
+|   |   PH = alta
+|   |   |   Densidade = baixa: 5 (0.0)
+|   |   |   Densidade = mediabaixa: 6 (26.0/16.0)
+|   |   |   Densidade = mediaalta: 5 (6.0/3.0)
+|   |   |   Densidade = alta: 5 (0.0)
+|   AcidezVolatil = alta: 3 (1.0)
+Alcool = alta: 6 (20.0/11.0)
+
+Number of Leaves  : 	34
+
+Size of the tree : 	49

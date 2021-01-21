@@ -1,0 +1,55 @@
+FuzzyDT
+------------------
+
+Bario = baixa
+|   Magnesio = baixissima
+|   |   Sodio = baixissima: 2 (2.0)
+|   |   Sodio = baixa: 2 (3.0/1.0)
+|   |   Sodio = mediabaixa: 5 (9.0/1.0)
+|   |   Sodio = media: 2 (5.0/2.0)
+|   |   Sodio = mediaalta: 2 (0.0)
+|   |   Sodio = alta: 2 (0.0)
+|   |   Sodio = altissima: 6 (1.0)
+|   Magnesio = baixa: 2 (2.0/1.0)
+|   Magnesio = mediabaixa
+|   |   Ferro = baixa
+|   |   |   Calcio = baixissima: 5 (0.0)
+|   |   |   Calcio = baixa: 6 (1.0)
+|   |   |   Calcio = mediabaixa: 6 (3.0/1.0)
+|   |   |   Calcio = media: 5 (3.0)
+|   |   |   Calcio = mediaalta: 5 (0.0)
+|   |   |   Calcio = alta: 5 (0.0)
+|   |   |   Calcio = altissima: 5 (0.0)
+|   |   Ferro = mediabaixa: 2 (2.0)
+|   |   Ferro = mediaalta: 5 (0.0)
+|   |   Ferro = alta: 5 (1.0)
+|   Magnesio = mediaalta: 2 (14.0/6.0)
+|   Magnesio = alta
+|   |   IndiceRefracao = baixa: 2 (43.0/13.0)
+|   |   IndiceRefracao = media
+|   |   |   Sodio = baixissima: 1 (0.0)
+|   |   |   Sodio = baixa: 2 (1.0)
+|   |   |   Sodio = mediabaixa
+|   |   |   |   Silicio = baixa
+|   |   |   |   |   Aluminio = baixissima: 2 (0.0)
+|   |   |   |   |   Aluminio = baixa: 1 (7.0/1.0)
+|   |   |   |   |   Aluminio = mediabaixa: 2 (17.0/5.0)
+|   |   |   |   |   Aluminio = media: 2 (2.0/1.0)
+|   |   |   |   |   Aluminio = mediaalta: 2 (0.0)
+|   |   |   |   |   Aluminio = alta: 2 (0.0)
+|   |   |   |   |   Aluminio = altissima: 2 (0.0)
+|   |   |   |   Silicio = alta: 1 (41.0/7.0)
+|   |   |   Sodio = media: 1 (26.0/11.0)
+|   |   |   Sodio = mediaalta: 1 (1.0)
+|   |   |   Sodio = alta: 1 (0.0)
+|   |   |   Sodio = altissima: 1 (0.0)
+|   |   IndiceRefracao = alta: 1 (0.0)
+|   Magnesio = altissima: 1 (1.0)
+Bario = mediabaixa: 7 (14.0/1.0)
+Bario = media: 7 (12.0)
+Bario = mediaalta: 5 (1.0)
+Bario = alta: 2 (2.0/1.0)
+
+Number of Leaves  : 	40
+
+Size of the tree : 	49

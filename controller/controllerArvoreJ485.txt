@@ -1,0 +1,12 @@
+FuzzyDT
+------------------
+
+angulo = baixa: 5 (3.0/1.0)
+angulo = mediabaixa: 3 (3.0/1.0)
+angulo = media: 7 (2.0)
+angulo = mediaalta: 3 (3.0/1.0)
+angulo = alta: 5 (3.0/1.0)
+
+Number of Leaves  : 	5
+
+Size of the tree : 	6

@@ -1,0 +1,15 @@
+FuzzyDT
+------------------
+
+angulo = baixissima: 5 (3.0/1.0)
+angulo = muitobaixa: 3 (0.0)
+angulo = baixa: 3 (3.0/1.0)
+angulo = mediabaixa: 7 (2.0)
+angulo = mediaalta: 3 (0.0)
+angulo = alta: 3 (3.0/1.0)
+angulo = muitoalta: 3 (0.0)
+angulo = altissima: 5 (3.0/1.0)
+
+Number of Leaves  : 	8
+
+Size of the tree : 	9

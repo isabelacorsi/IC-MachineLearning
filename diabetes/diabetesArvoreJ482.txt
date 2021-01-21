@@ -1,0 +1,12 @@
+FuzzyDT
+------------------
+
+Glicose = baixa
+|   IMC = baixa: 0 (4.0)
+|   IMC = alta: 1 (2.0)
+Glicose = media: 0 (618.0/160.0)
+Glicose = alta: 1 (143.0/37.0)
+
+Number of Leaves  : 	4
+
+Size of the tree : 	6

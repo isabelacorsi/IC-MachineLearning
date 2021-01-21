@@ -1,0 +1,7 @@
+FuzzyDT
+------------------
+: 3 (14.0/8.0)
+
+Number of Leaves  : 	1
+
+Size of the tree : 	1

@@ -1,0 +1,11 @@
+controller - Total: 8 rules.
+
+IF angulo IS baixissima THEN CLASS IS 5
+IF angulo IS muitobaixa THEN CLASS IS 3
+IF angulo IS baixa THEN CLASS IS 3
+IF angulo IS mediabaixa THEN CLASS IS 7
+IF angulo IS mediaalta THEN CLASS IS 3
+IF angulo IS alta THEN CLASS IS 3
+IF angulo IS muitoalta THEN CLASS IS 3
+IF angulo IS altissima THEN CLASS IS 5
+

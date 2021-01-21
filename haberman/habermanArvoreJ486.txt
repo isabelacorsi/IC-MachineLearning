@@ -1,0 +1,10 @@
+FuzzyDT
+------------------
+
+axil_nodes = baixa: 1 (275.0/64.0)
+axil_nodes = media: 2 (29.0/13.0)
+axil_nodes = alta: 1 (2.0/1.0)
+
+Number of Leaves  : 	3
+
+Size of the tree : 	4

@@ -1,0 +1,33 @@
+FuzzyDT
+------------------
+
+Glicose = baixa
+|   NumeroGravidez = baixissima: 0 (3.0)
+|   NumeroGravidez = baixa: 0 (0.0)
+|   NumeroGravidez = mediabaixa: 1 (2.0)
+|   NumeroGravidez = media: 0 (0.0)
+|   NumeroGravidez = mediaalta: 0 (0.0)
+|   NumeroGravidez = alta: 0 (0.0)
+|   NumeroGravidez = altissima: 0 (0.0)
+Glicose = mediabaixa: 0 (23.0)
+Glicose = media: 0 (428.0/83.0)
+Glicose = mediaalta
+|   IMC = baixa
+|   |   PressaoArterial = baixa: 1 (4.0)
+|   |   PressaoArterial = mediabaixa: 0 (0.0)
+|   |   PressaoArterial = media: 0 (78.0/31.0)
+|   |   PressaoArterial = mediaalta
+|   |   |   NumeroGravidez = baixissima: 0 (13.0/3.0)
+|   |   |   NumeroGravidez = baixa: 0 (15.0/6.0)
+|   |   |   NumeroGravidez = mediabaixa: 0 (13.0/6.0)
+|   |   |   NumeroGravidez = media: 1 (9.0/1.0)
+|   |   |   NumeroGravidez = mediaalta: 0 (3.0/1.0)
+|   |   |   NumeroGravidez = alta: 0 (2.0/1.0)
+|   |   |   NumeroGravidez = altissima: 0 (0.0)
+|   |   PressaoArterial = alta: 0 (0.0)
+|   IMC = alta: 1 (117.0/41.0)
+Glicose = alta: 1 (57.0/10.0)
+
+Number of Leaves  : 	22
+
+Size of the tree : 	27

@@ -1,0 +1,24 @@
+9
+21
+dc	baixa	dc	dc	dc	baixa	dc	dc	0	
+dc	baixa	dc	dc	dc	alta	dc	dc	1	
+dc	media	baixa	dc	dc	baixa	dc	baixa	0	
+dc	media	baixa	dc	dc	alta	dc	baixa	1	
+dc	media	media	dc	dc	dc	dc	baixa	0	
+dc	media	alta	dc	dc	dc	baixissima	baixa	0	
+dc	media	alta	dc	dc	dc	baixa	baixa	1	
+dc	media	alta	dc	dc	dc	mediabaixa	baixa	0	
+dc	media	alta	dc	dc	dc	mediaalta	baixa	0	
+dc	media	alta	dc	dc	dc	alta	baixa	0	
+dc	media	alta	dc	dc	dc	altissima	baixa	0	
+dc	media	dc	dc	dc	baixa	dc	mediabaixa	0	
+dc	media	dc	dc	dc	alta	baixissima	mediabaixa	0	
+dc	media	dc	dc	dc	alta	baixa	mediabaixa	1	
+dc	media	dc	dc	dc	alta	mediabaixa	mediabaixa	1	
+dc	media	dc	dc	dc	alta	mediaalta	mediabaixa	1	
+dc	media	dc	dc	dc	alta	alta	mediabaixa	0	
+dc	media	dc	dc	dc	alta	altissima	mediabaixa	1	
+dc	media	dc	dc	dc	dc	dc	mediaalta	0	
+dc	media	dc	dc	dc	dc	dc	alta	0	
+dc	alta	dc	dc	dc	dc	dc	dc	1	
+

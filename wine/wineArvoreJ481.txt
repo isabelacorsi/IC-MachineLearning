@@ -1,0 +1,33 @@
+FuzzyDT
+------------------
+
+Alcool = baixa
+|   AcidezFixa = baixa: 5 (666.0/219.0)
+|   AcidezFixa = alta
+|   |   Sulfato = baixa: 5 (25.0/10.0)
+|   |   Sulfato = mediabaixa: 6 (54.0/24.0)
+|   |   Sulfato = mediaalta: 6 (2.0/1.0)
+|   |   Sulfato = alta: 6 (0.0)
+Alcool = media
+|   PH = baixa
+|   |   AcidoCitrico = baixa
+|   |   |   AcidezVolatil = baixa: 6 (4.0/1.0)
+|   |   |   AcidezVolatil = media: 5 (7.0/1.0)
+|   |   |   AcidezVolatil = alta: 5 (0.0)
+|   |   AcidoCitrico = alta: 7 (16.0/7.0)
+|   PH = media: 6 (791.0/392.0)
+|   PH = alta: 6 (14.0/8.0)
+Alcool = alta
+|   AcidezVolatil = baixa
+|   |   AcidezFixa = baixa
+|   |   |   Sulfato = baixa: 6 (2.0)
+|   |   |   Sulfato = mediabaixa: 7 (13.0/6.0)
+|   |   |   Sulfato = mediaalta: 6 (0.0)
+|   |   |   Sulfato = alta: 6 (0.0)
+|   |   AcidezFixa = alta: 5 (2.0/1.0)
+|   AcidezVolatil = media: 8 (3.0/1.0)
+|   AcidezVolatil = alta: 6 (0.0)
+
+Number of Leaves  : 	18
+
+Size of the tree : 	27

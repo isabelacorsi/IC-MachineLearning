@@ -1,0 +1,24 @@
+diabetes - Total: 21 rules.
+
+IF Glicose IS baixa  AND IMC IS baixa THEN CLASS IS 0
+IF Glicose IS baixa  AND IMC IS alta THEN CLASS IS 1
+IF Glicose IS media  AND PressaoArterial IS baixa  AND IMC IS baixa  AND Idade IS baixa THEN CLASS IS 0
+IF Glicose IS media  AND PressaoArterial IS baixa  AND IMC IS alta  AND Idade IS baixa THEN CLASS IS 1
+IF Glicose IS media  AND PressaoArterial IS media  AND Idade IS baixa THEN CLASS IS 0
+IF Glicose IS media  AND PressaoArterial IS alta  AND DiabetePFuncoa IS baixissima  AND Idade IS baixa THEN CLASS IS 0
+IF Glicose IS media  AND PressaoArterial IS alta  AND DiabetePFuncoa IS baixa  AND Idade IS baixa THEN CLASS IS 1
+IF Glicose IS media  AND PressaoArterial IS alta  AND DiabetePFuncoa IS mediabaixa  AND Idade IS baixa THEN CLASS IS 0
+IF Glicose IS media  AND PressaoArterial IS alta  AND DiabetePFuncoa IS mediaalta  AND Idade IS baixa THEN CLASS IS 0
+IF Glicose IS media  AND PressaoArterial IS alta  AND DiabetePFuncoa IS alta  AND Idade IS baixa THEN CLASS IS 0
+IF Glicose IS media  AND PressaoArterial IS alta  AND DiabetePFuncoa IS altissima  AND Idade IS baixa THEN CLASS IS 0
+IF Glicose IS media  AND IMC IS baixa  AND Idade IS mediabaixa THEN CLASS IS 0
+IF Glicose IS media  AND IMC IS alta  AND DiabetePFuncoa IS baixissima  AND Idade IS mediabaixa THEN CLASS IS 0
+IF Glicose IS media  AND IMC IS alta  AND DiabetePFuncoa IS baixa  AND Idade IS mediabaixa THEN CLASS IS 1
+IF Glicose IS media  AND IMC IS alta  AND DiabetePFuncoa IS mediabaixa  AND Idade IS mediabaixa THEN CLASS IS 1
+IF Glicose IS media  AND IMC IS alta  AND DiabetePFuncoa IS mediaalta  AND Idade IS mediabaixa THEN CLASS IS 1
+IF Glicose IS media  AND IMC IS alta  AND DiabetePFuncoa IS alta  AND Idade IS mediabaixa THEN CLASS IS 0
+IF Glicose IS media  AND IMC IS alta  AND DiabetePFuncoa IS altissima  AND Idade IS mediabaixa THEN CLASS IS 1
+IF Glicose IS media  AND Idade IS mediaalta THEN CLASS IS 0
+IF Glicose IS media  AND Idade IS alta THEN CLASS IS 0
+IF Glicose IS alta THEN CLASS IS 1
+

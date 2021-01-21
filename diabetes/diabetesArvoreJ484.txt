@@ -1,0 +1,16 @@
+FuzzyDT
+------------------
+
+Glicose = baixissima
+|   NumeroGravidez = baixa: 0 (3.0)
+|   NumeroGravidez = media: 1 (2.0)
+|   NumeroGravidez = alta: 0 (0.0)
+Glicose = baixa: 0 (4.0)
+Glicose = mediabaixa: 0 (187.0/14.0)
+Glicose = mediaalta: 0 (374.0/117.0)
+Glicose = alta: 1 (151.0/55.0)
+Glicose = altissima: 1 (46.0/7.0)
+
+Number of Leaves  : 	8
+
+Size of the tree : 	10

@@ -1,0 +1,21 @@
+10
+18
+baixa	dc	dc	dc	dc	baixa	baixa	dc	dc	1	
+baixa	dc	dc	dc	dc	media	baixa	baixissima	dc	1	
+baixa	dc	dc	dc	dc	media	baixa	baixa	dc	1	
+baixa	dc	dc	dc	dc	media	baixa	mediabaixa	dc	2	
+baixa	dc	dc	dc	dc	media	baixa	mediaalta	dc	2	
+baixa	dc	dc	dc	dc	media	baixa	alta	dc	1	
+baixa	dc	dc	dc	dc	media	baixa	altissima	dc	1	
+baixa	dc	dc	baixa	dc	alta	baixa	dc	dc	1	
+baixa	dc	dc	alta	dc	alta	baixa	dc	dc	2	
+alta	baixissima	dc	dc	dc	dc	baixa	dc	dc	1	
+alta	baixa	dc	dc	dc	dc	baixa	dc	dc	2	
+alta	mediabaixa	dc	dc	dc	dc	baixa	dc	dc	2	
+alta	media	dc	dc	dc	dc	baixa	dc	dc	2	
+alta	mediaalta	dc	dc	dc	dc	baixa	dc	dc	2	
+alta	alta	dc	dc	dc	dc	baixa	dc	dc	2	
+alta	altissima	dc	dc	dc	dc	baixa	dc	dc	2	
+dc	dc	dc	dc	dc	dc	media	dc	dc	2	
+dc	dc	dc	dc	dc	dc	alta	dc	dc	2	
+

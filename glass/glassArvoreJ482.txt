@@ -1,0 +1,40 @@
+FuzzyDT
+------------------
+
+Bario = baixa
+|   Magnesio = baixissima
+|   |   Calcio = baixa: 5 (6.0/3.0)
+|   |   Calcio = alta: 2 (15.0/7.0)
+|   Magnesio = baixa: 2 (2.0/1.0)
+|   Magnesio = mediabaixa: 5 (5.0/2.0)
+|   Magnesio = media
+|   |   Ferro = baixissima: 6 (6.0/2.0)
+|   |   Ferro = baixa: 6 (0.0)
+|   |   Ferro = mediabaixa: 2 (2.0)
+|   |   Ferro = mediaalta: 6 (0.0)
+|   |   Ferro = alta: 6 (0.0)
+|   |   Ferro = altissima: 6 (0.0)
+|   Magnesio = mediaalta
+|   |   Sodio = baixissima: 2 (0.0)
+|   |   Sodio = muitobaixa: 2 (0.0)
+|   |   Sodio = baixa: 2 (9.0/1.0)
+|   |   Sodio = mediabaixa
+|   |   |   Silicio = baixa: 2 (2.0)
+|   |   |   Silicio = media: 1 (9.0/4.0)
+|   |   |   Silicio = alta: 1 (0.0)
+|   |   Sodio = mediaalta: 2 (1.0)
+|   |   Sodio = alta: 2 (0.0)
+|   |   Sodio = muitoalta: 2 (0.0)
+|   |   Sodio = altissima: 2 (0.0)
+|   Magnesio = alta
+|   |   IndiceRefracao = baixa: 2 (40.0/13.0)
+|   |   IndiceRefracao = media: 1 (88.0/32.0)
+|   |   IndiceRefracao = alta: 1 (0.0)
+|   Magnesio = altissima: 1 (1.0)
+Bario = mediabaixa: 7 (18.0/1.0)
+Bario = mediaalta: 7 (8.0/1.0)
+Bario = alta: 2 (2.0/1.0)
+
+Number of Leaves  : 	27
+
+Size of the tree : 	34

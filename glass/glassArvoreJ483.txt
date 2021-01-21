@@ -1,0 +1,68 @@
+FuzzyDT
+------------------
+
+Bario = baixissima
+|   Magnesio = baixa
+|   |   Sodio = baixa: 2 (3.0)
+|   |   Sodio = mediabaixa
+|   |   |   Aluminio = baixa: 2 (3.0)
+|   |   |   Aluminio = media: 5 (9.0/3.0)
+|   |   |   Aluminio = alta: 5 (2.0)
+|   |   Sodio = mediaalta: 6 (4.0/1.0)
+|   |   Sodio = alta: 6 (1.0)
+|   Magnesio = media
+|   |   Sodio = baixa: 5 (2.0)
+|   |   Sodio = mediabaixa: 2 (25.0/12.0)
+|   |   Sodio = mediaalta
+|   |   |   Potassio = baixissima: 6 (3.0)
+|   |   |   Potassio = baixa: 2 (2.0/1.0)
+|   |   |   Potassio = mediabaixa: 6 (0.0)
+|   |   |   Potassio = mediaalta: 6 (0.0)
+|   |   |   Potassio = alta: 6 (0.0)
+|   |   |   Potassio = altissima: 6 (0.0)
+|   |   Sodio = alta: 2 (0.0)
+|   Magnesio = alta
+|   |   Potassio = baixissima
+|   |   |   IndiceRefracao = baixissima: 1 (1.0)
+|   |   |   IndiceRefracao = muitobaixa: 2 (5.0/1.0)
+|   |   |   IndiceRefracao = baixa
+|   |   |   |   Silicio = baixa: 1 (0.0)
+|   |   |   |   Silicio = mediabaixa: 2 (20.0/7.0)
+|   |   |   |   Silicio = mediaalta
+|   |   |   |   |   Aluminio = baixa
+|   |   |   |   |   |   Ferro = baixa: 1 (2.0/1.0)
+|   |   |   |   |   |   Ferro = mediabaixa: 2 (2.0)
+|   |   |   |   |   |   Ferro = mediaalta: 2 (0.0)
+|   |   |   |   |   |   Ferro = alta: 2 (0.0)
+|   |   |   |   |   Aluminio = media: 1 (50.0/17.0)
+|   |   |   |   |   Aluminio = alta: 1 (0.0)
+|   |   |   |   Silicio = alta: 1 (0.0)
+|   |   |   IndiceRefracao = mediabaixa
+|   |   |   |   Silicio = baixa: 1 (0.0)
+|   |   |   |   Silicio = mediabaixa: 1 (17.0/3.0)
+|   |   |   |   Silicio = mediaalta: 2 (2.0/1.0)
+|   |   |   |   Silicio = alta: 1 (0.0)
+|   |   |   IndiceRefracao = mediaalta: 1 (2.0)
+|   |   |   IndiceRefracao = alta: 1 (1.0)
+|   |   |   IndiceRefracao = muitoalta: 1 (0.0)
+|   |   |   IndiceRefracao = altissima: 1 (0.0)
+|   |   Potassio = baixa: 2 (27.0/6.0)
+|   |   Potassio = mediabaixa: 1 (0.0)
+|   |   Potassio = mediaalta: 1 (0.0)
+|   |   Potassio = alta: 1 (0.0)
+|   |   Potassio = altissima: 1 (0.0)
+Bario = muitobaixa
+|   Sodio = baixa: 7 (0.0)
+|   Sodio = mediabaixa: 2 (2.0/1.0)
+|   Sodio = mediaalta: 7 (10.0)
+|   Sodio = alta: 7 (0.0)
+Bario = baixa: 7 (4.0/1.0)
+Bario = mediabaixa: 7 (5.0)
+Bario = mediaalta: 7 (7.0)
+Bario = alta: 5 (1.0)
+Bario = muitoalta: 7 (1.0)
+Bario = altissima: 2 (1.0)
+
+Number of Leaves  : 	49
+
+Size of the tree : 	62
